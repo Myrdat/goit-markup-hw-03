@@ -11,30 +11,34 @@
 </head>
 <body>
         <!--Шапка-->
-        <header class="header list">
-            <nav>
-                <a class="list" href="./index.html"><span class="title-web link list">Web</span> <span class="title-studio link list">Studio</span></a>
-                <ul class="link list">
-                    <li><a class="site-nav-portfolio link list" href="./index.html">Студия</a></li>
-                    <li><a class="site-nav-portfolio link list" href="./portfolio.html">Портфолио</a></li>
-                    <li><a class="site-nav-portfolio link list" href="">Контакты</a></li>
-                </ul>
-                 
-            </nav>
-            <ul class="auth-nav list">
-                <li>
-                    <a class="auth-nav list link" href="mailto:info@devstudio.com">
-                        <img src="./images/envelope(hover).svg" alt="envelope">info@devstudio.com
-                    </a>   
-                </li>
-                <li><a class="auth-nav list link" href="tel:+380961111111"><img src="./images/Vector.svg" alt="telefone">+38 096 111 11 11</a></li>
-            </ul>      
-        </header> 
+        <header class="header">
+            <div class="container">
+                 <nav>
+                 <div class="container"> <a class="link list" href="./index.html"><span class="title-web link list">Web</span> <span class="title-studio link list">Studio</span></a>
+                         <ul class="site-nav">
+                             <li class="list"><a class="link list current" href="./index.html">Студия</a></li>
+                             <li class="list"><a class="link list current" href="./portfolio.html">Портфолио</a></li>
+                             <li class="list"><a class="list link current" href="">Контакты</a></li>
+                         </ul>
+                     </div>
+                 </nav>
+                 <div class="container">
+                     <ul class="auth-nav link list">
+                         <li class="link">
+                             <a class="auth-nav list link" href="mailto:info@devstudio.com">
+                                 <img src="./images/envelope(hover).svg" alt="envelope">info@devstudio.com
+                             </a>   
+                         </li>
+                         <li><a class="auth-nav list link" href="tel:+380961111111"><img src="./images/Vector.svg" alt="telefone">+38 096 111 11 11</a></li>
+                     </ul>
+                 </div>      
+            </div>
+         </header>
 <main>
     
     <section>
 
-        <div class="projects">
+        
             <ul class="list projects">
                 <li><button class="filtr btn list link" type="button">Все</button></li>
                 <li><button class="filtr btn list link" type="button">Веб-сайты</button></li>
@@ -42,9 +46,9 @@
                 <li><button class="filtr btn list link" type="button">Дизайн</button></li>
                 <li><button class="filtr btn list link" type="button">Маркетинг</button></li>
             </ul>
-        </div>
+        
 
-        <div class="projects">
+        
             <ul class="list projects">
                 <li>
                     <a class="list" href="">
@@ -135,49 +139,56 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
             </ul>
-        </div>
+        
 </section>
 </main>
 <footer>
-    <a class="title link list" href="./index.html">
-        <span class="title-web">Web</span> <span class="title-studio">Studio</span>
-    </a>
+    <div class="container">
     
-    <address>
-        <ul>
-            <li class="street">г. Киев, пр-т Леси Украинки, 26</li>
-            <li><a class="address link list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="address link list" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </address>  
-    <div>         
-        <p class="footer-title">Присоединяйтесь</p>
-        <ul class="list">
-            <li>
-                <a class="link list" href="" aria-label="Силка на instagram" target="_blank" rel="noopener noreferrer">instagram</a>
-            </li>
-            <li>
-                <a class="link list" href="" aria-label="Силка на twitter" target="_blank" rel="noopener noreferrer">twitter</a>
-            </li>
-            <li>
-                <a class="link list" href="" aria-label="Силка на facebook" target="_blank" rel="noopener noreferrer">facebook</a>
-            </li>
-            <li>
-                <a class="link list" href="" aria-label="Силка на linkedin" target="_blank" rel="noopener noreferrer">linkedin</a>
-            </li>
-        </ul>  
+     
+    <div class="container-address">
+     <div class="container-webstudio">
+         <a class="title link list" href="./index.html">
+             <span class="title-web">Web</span> <span class="title-studio">Studio</span>
+         </a>
+     </div>
+     <address>
+         <ul class="list">
+             <li class="street">г. Киев, пр-т Леси Украинки, 26</li>
+             <li><a class="address link list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+             <li><a class="address link list" href="tel:+380961111111">+38 096 111 11 11</a></li>
+         </ul>
+     </address>  
     </div>
-    <div>
-        <p class="footer-title">Подпишитесь на рассылку</p>
+     <div class="container-folow-me">         
+         <p class="footer-title">Присоединяйтесь</p>
+         <ul class="folow list">
+             <li>
+                 <a class="link list" href="" aria-label="Силка на instagram" target="_blank" rel="noopener noreferrer">instagram</a>
+             </li>
+             <li>
+                 <a class="link list" href="" aria-label="Силка на twitter" target="_blank" rel="noopener noreferrer">twitter</a>
+             </li>
+             <li>
+                 <a class="link list" href="" aria-label="Силка на facebook" target="_blank" rel="noopener noreferrer">facebook</a>
+             </li>
+             <li>
+                 <a class="link list" href="" aria-label="Силка на linkedin" target="_blank" rel="noopener noreferrer">linkedin</a>
+             </li>
+         </ul>  
+     </div>
+     <div class="container-folow">
+         <p class="footer-title">Подпишитесь на рассылку</p>
+     </div>
+     <!-- 
+             <b>Подпишитесь на рассылку</b>
+             <ul> 
+                 <li><a href="mailto:info@devstudio.com">E-mail</a></li>
+                 <li><button type="button" class="link" >Подписаться</button></li>
+             </ul> 
+     -->
     </div>
-    <!-- 
-            <b>Подпишитесь на рассылку</b>
-            <ul> 
-                <li><a href="mailto:info@devstudio.com">E-mail</a></li>
-                <li><button type="button" class="link" >Подписаться</button></li>
-            </ul> 
-    -->
-   
+    
 </footer>
 </body>
 </html>
