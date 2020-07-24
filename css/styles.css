@@ -48,9 +48,11 @@ align-items: center;
     color: #2196f3;
 }
 
-.site-nav .link.current{
+.site-nav .link.current,
+.site-nav-portfolio .link.current{
     color: #2196F3;
     } 
+
 .site-nav .list {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -99,7 +101,7 @@ align-items: center;
     }
 
 .header > .container {
-    width: 1200px;
+    width: 1230px;
     padding: 32px 15px;
     margin: 0 auto;
     }   
@@ -111,7 +113,7 @@ align-items: center;
    }
 
 .hero .container {
-    width: 1200px;
+    width: 1230px;
     height: 700px;
     padding: 120px 60px;
     margin: auto;
@@ -167,8 +169,8 @@ align-items: center;
 
     /* Особености */
 
-    .promo > .container {
-    width: 1200px;
+.promo > .container {
+    width: 1230px;
     padding: 94px 15px;
     margin: 0 auto;
 }
@@ -200,7 +202,7 @@ align-items: center;
  /* about-us */
 
 .about-us > .container {
-        width: 1200px;
+        width: 1230px;
         padding: 94px 15px;
         margin: 0 auto;
     }
@@ -229,8 +231,8 @@ margin-right: 30px;
 
    /* Наша команда */
 
- .team > .container {
-    width: 1200px;
+.team > .container {
+    width: 1230px;
     padding: 94px 15px;
     margin: 0 auto;
  }
@@ -242,10 +244,10 @@ margin-right: 30px;
 .team .team-card:not(:last-child){
     margin-right: 30px;
 }
- .team .team-card {
+.team .team-card {
      margin-top: 50px;
  }
- .team .team-name {
+.team .team-name {
      margin-top: 30px;
      margin-bottom: 10px;
      color: var(--title-text-color);
@@ -254,7 +256,7 @@ margin-right: 30px;
      line-height: 1.187;
      text-align: center;
      }
- .team .team-prof  {
+.team .team-prof  {
      margin-bottom: 16px;
      font-size: 16px;
      line-height: 1.187;
@@ -268,7 +270,7 @@ margin-right: 30px;
      /* clients */
 
 .clients .container {
-    width: 1200px;
+    width: 1230px;
     padding: 94px 15px;
     margin: 0 auto;
 }
@@ -296,7 +298,7 @@ footer {
 footer .container {
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    width: 1230px;
     padding: 60px 15px;
     margin: 0 auto;
 }
@@ -336,53 +338,112 @@ font-style: normal;
     padding-top: 12px;
     
 }
+
 /* CSS Portfolio */
 
-.site-nav-portfolio {
+.site-nav-portfolio .link{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
     color: #212121;
     font-weight: 500;
     font-weight: 14px;
     line-height: 1.142x;
     }
 
-.site-nav-portfolio.link:hover,
-.site-nav-portfolio.link:focus {
+.site-nav-portfolio .link:not(:last-child),
+.auth-nav .link:not(:last-child){
+    margin-right: 40px;
+}
+
+.site-nav-portfolio .link:hover,
+.site-nav-portfolio .link:focus {
     color: #2196f3;
-}    
-.filtr {
-    color: var(--title-text-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.625;
-    border-radius: 4px;
-    background-color: #F5F4FA;;
-   }
+}  
+
 .btn:hover,
 .btn:focus {
     color: var(--color-text-white);
     background-color: #2196F3;
 }
-.project {
+
+.section-filtr .container-filtr{
+   width: 1230px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 99px auto 50px; 
+    
+}
+
+.projects-filtr{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    }
+    justify-content: center;
+}
+
+.projects-filtr .link:not(:last-child){
+    margin-right: 8px;
+}
+
+.container-projects{
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto 94px;
+} 
+
+.container-projects .projects.item{
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.list-item{
+   margin-bottom: 30px;
+    /* width: calc((100% - 15px * 2) / 3); */
+    
+}
+
+.list-item.:nht-child(3n){
+    margin-right: 30px;
+
+}
+
+.list-item.:nht-child(){
+    margin-left: 0;
+}
+
+.filtr {
+    padding: 6px 22px;
+    color: var(--title-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+   }
+   
+
+
 .project .item {
     width: calc((100% - 30px * 2) / 3);
 }    
 .project-title {
+    margin: 20px 24px 0;
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     }
 .project-filtr {
+    margin: 4px 24px 20px;
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.875;
     }
 
 .projectr-about {
+    display: none;
     color: var(--color-text-white);
     font-size: 18px;
     line-height: 1.5;

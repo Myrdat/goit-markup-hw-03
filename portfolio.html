@@ -13,55 +13,57 @@
         <!--Шапка-->
         <header class="header">
             <div class="container">
-                 <nav>
-                 <div class="container"> <a class="link list" href="./index.html"><span class="title-web link list">Web</span> <span class="title-studio link list">Studio</span></a>
-                         <ul class="site-nav-portfolio">
-                             <li class="list"><a class="link list" href="./index.html">Студия</a></li>
-                             <li class="list"><a class="link list current" href="./portfolio.html">Портфолио</a></li>
-                             <li class="list"><a class="list link" href="">Контакты</a></li>
-                         </ul>
-                     </div>
-                 </nav>
-                 <div class="container">
-                     <ul class="auth-nav link list">
-                         <li class="link">
-                             <a class="auth-nav list link" href="mailto:info@devstudio.com">
-                                 <img src="./images/envelope(hover).svg" alt="envelope">info@devstudio.com
-                             </a>   
-                         </li>
-                         <li><a class="auth-nav list link" href="tel:+380961111111"><img src="./images/Vector.svg" alt="telefone">+38 096 111 11 11</a></li>
-                     </ul>
-                 </div>      
+                <div class="nav-container">
+                 <nav class="nav-container">
+                 
+                     <a class="link list" href="./index.html"><span class="title-web link list">Web </span><span class="title-studio link list">Studio</span></a>
+                        <ul class="site-nav-portfolio list nav-container">
+                            <li class="link"><a class="link list" href="./index.html">Студия</a></li>
+                            <li class="link"><a class="link list current" href="./portfolio.html">Портфолио</a></li>
+                            <li class="link"><a class="list link" href="">Контакты</a></li>
+                        </ul>
+                
+                </nav>
+                
+                    <ul class="auth-nav list nav-container">
+                        <li class="link">
+                            <a class="list link" href="mailto:info@devstudio.com">
+                                <img src="./images/envelope(hover).svg" alt="envelope">info@devstudio.com
+                            </a>   
+                        </li>
+                        <li class="link"><a class="list link" href="tel:+380961111111"><img src="./images/Vector.svg" alt="telefone">+38 096 111 11 11</a></li>
+                    </ul>
+                </div>
+                       
             </div>
          </header>
 <main>
     
-    <section class="section-project">
+    <section class="section-filtr">
 
-        
-            <ul class="list projects">
-                <li><button class="filtr btn list link" type="button">Все</button></li>
-                <li><button class="filtr btn list link" type="button">Веб-сайты</button></li>
-                <li><button class="filtr btn list link" type="button">Приложение</button></li>
-                <li><button class="filtr btn list link" type="button">Дизайн</button></li>
-                <li><button class="filtr btn list link" type="button">Маркетинг</button></li>
+        <div class="container-filtr">
+            <ul class="list projects-filtr">
+                <li class="link"><button class="filtr btn list link" type="button">Все</button></li>
+                <li class="link"><button class="filtr btn list link" type="button">Веб-сайты</button></li>
+                <li class="link"><button class="filtr btn list link" type="button">Приложение</button></li>
+                <li class="link"><button class="filtr btn list link" type="button">Дизайн</button></li>
+                <li class="link"><button class="filtr btn list link" type="button">Маркетинг</button></li>
             </ul>
-        
-
-        
-           <div class="container">
+        </div>
+                
+        <div class="container-projects">
             <ul class="list projects item">
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img.svg" width="370"
                         height="294" alt="">
                         <p class="project-title">Технокряк </p>
                         <p class="project-filtr">Веб-сайт</p>
                         <p class="projectr-about">Технокряк это современная площадка распространения коронавируса. Компании используют
-                         эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                         эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p> 
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img2.svg" width="370"
                         height="294" alt="">
@@ -71,17 +73,17 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img3.svg" width="370"
                         height="294" alt="">
                         <p class="project-title">Ресторан Seafood</p>
                         <p class="project-filtr">Приложение</p>
-                        <p class="projectr-about">Технокряк это современная площадка распространения коронавируса. Компании используют
+                        <p visibility: hidden; class="projectr-about">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img4.svg" width="370"
                         height="294" alt="">
@@ -90,7 +92,7 @@
                         <p class="projectr-about">Технокряк это современная площадка распространения коронавируса. Компании используют
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img5.svg" width="370"
                         height="294" alt="">
@@ -100,7 +102,7 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img6.svg" width="370"
                         height="294" alt="">
@@ -110,7 +112,7 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img7.svg" width="370"
                         height="294" alt="">
@@ -120,7 +122,7 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img8.svg" width="370"
                         height="294" alt="">
@@ -130,7 +132,7 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a class="list" href="">
                         <img src="./images_portfolio/img9.svg" width="370"
                         height="294" alt="">
@@ -140,7 +142,7 @@
                             эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
             </ul>
-           </div>
+         </div>
         
 </section>
 </main>
