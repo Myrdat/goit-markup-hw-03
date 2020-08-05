@@ -197,26 +197,32 @@ align-items: center;
     margin-top: 10px;
     line-height: 1.714;
    }
-
+.feature > img {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+}
 
  /* about-us */
 
 .about-us > .container {
         width: 1200px;
-        padding: 94px 15px;
+        padding-top: 0;
+        padding-bottom: 94px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
-    }
+        }
 
 .about-us  .list{
     display: flex;
+    margin-top: 50px;
 }
 
 .about-us .box:not(:last-child){
 margin-right: 30px;
 }
-.about-us  .box{
-    margin-top: 50px;
-    }
+
 .box .wwd {
     padding: 27px 85px;
     width: 370px;
@@ -235,6 +241,7 @@ margin-right: 30px;
     width: 1200px;
     padding: 94px 15px;
     margin: 0 auto;
+    background: #F5F4FA;
  }
 
 .team  .list {
@@ -245,7 +252,9 @@ margin-right: 30px;
     margin-right: 30px;
 }
 .team .team-card {
-     margin-top: 50px;
+    margin-top: 50px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
  }
 .team .team-name {
      margin-top: 30px;
@@ -266,11 +275,19 @@ margin-right: 30px;
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    margin-bottom: 24px;
+    background: #2196F3;
+}
+
+.social-link > a {
+    display: block;
+    padding-left: 12px;
+    padding-top: 12px;
 }
 
 .list.social {
+    margin-bottom: 24px;
     margin-left: 32px;
+    
 }
 
      /* clients */
@@ -288,7 +305,12 @@ margin-right: 30px;
 }
 
 .clients .clients-padding{
+    display: block;
+    padding-left: 50px;
     width: 170px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
     
    }
 
@@ -391,7 +413,7 @@ font-style: normal;
    width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
-   margin: 99px auto 50px; 
+   margin: 93px auto 50px; 
     
 }
 
@@ -417,6 +439,9 @@ font-style: normal;
    }
 
 .list-item{
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     width: 370px;
     margin: 15px;
    /* width: calc((100% - 60px) / 3);
@@ -444,7 +469,7 @@ font-style: normal;
    }
 
 .project-title {
-    margin: 20px 24px 0;
+    margin: 20px 24px;
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
