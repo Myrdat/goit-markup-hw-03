@@ -39,14 +39,25 @@ h2, h3, p, img {
     padding: 0 0;
    }
 
-.container.nav {
+.container-nav {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
     border-bottom: 1px solid #ECECEC;
+    
 }   
 .nav-container {
     display: flex;
     align-items: center;
-    
 }
+
+.header > .container {
+    width: 1200px;
+    padding: 25px 15px; 
+    margin: 0 auto;
+}   
+
 
 /* .logo.link:hover,
 .logo.link:focus, */
@@ -110,11 +121,6 @@ h2, h3, p, img {
     line-height: 1.192;
     }
 
-.header > .container {
-    width: 1200px;
-    padding: 25px 15px;
-    margin: 0 auto;
-}   
 
    /*main*/
 
@@ -460,7 +466,7 @@ footer .container {
    }
 
 .container.projectr.about{
-    padding-top: 20px;
+    
     display: block;
     width: 370px;
     border-left: 1px solid #EEEEEE;
@@ -502,7 +508,7 @@ footer .container {
    }
 
 .project-title {
-    margin: 0 24px 20px;
+    margin: 20px 24px 0;
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
