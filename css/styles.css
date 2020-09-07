@@ -140,6 +140,8 @@ h2, h3, p, img {
 /*    
     left: 732px;
     top: 440px; */
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--color-text-white);
     font-size: 44px;
     font-weight: 900;
@@ -254,13 +256,17 @@ margin-right: 30px;
 }
 
    /* Наша команда */
+.team {
+    margin: 0 auto;
+    width: 1600px;
+    background: black;
+}
 
 .team > .container {
     width: 1200px;
     padding: 94px 15px;
     margin: 0 auto;
-    background: #F5F4FA;
- }
+    }
 
 .title-main.team  {
     margin-bottom: 50px;
